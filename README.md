@@ -9,7 +9,7 @@ user@server$ source layers/poky/oe-init-build-env build
 ```
 3. To build an image, run the following command:
 ```console
-user@server$ bitbake -k rpi-basic-image
+user@server$ bitbake -k core-base-image
 ```
 
 ## Sources
