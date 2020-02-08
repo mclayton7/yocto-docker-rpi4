@@ -11,7 +11,7 @@ user@server$ source layers/poky/oe-init-build-env build
 ```console
 user@server$ bitbake -k core-image-base
 ```
-4. Once it completes successfully, the image will be located in ```build/tmp/deploy/images/raspberrypi4-64/``` with the name ```rpi-basic-image-raspberrypi4-64.rpi-sdimg```
+4. Once it completes successfully, the image will be located in ```build/tmp/deploy/images/raspberrypi4-64/``` with the name ```core-image-base-raspberrypi4-64.rpi-sdimg```
 5. Use ```dd``` on Linux or a tool like [Balena Etcher](https://www.balena.io/etcher/) for Windows and Linux to flash the image to an SD Card
 
 ## Sources
